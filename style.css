@@ -4,6 +4,7 @@ body {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -117,6 +118,9 @@ button:hover {
 #thankYou p {
     color: hsl(217, 12%, 63%);
     font-size: 14px;
+}
+footer {
+    margin-top: 2em;
 }
 @media (max-width:375px) {
     #card {
